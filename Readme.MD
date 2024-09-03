@@ -35,6 +35,7 @@ To set up the project, follow these steps:
     - Create a systemd service file for managing the Tomcat server.
         ``` sudo nano /etc/systemd/system/tomcat.service```
     - Add the following content to the service file:
+    
                 [Unit]
                 Description=Apache Tomcat Web Application Container
                 After=network.target
